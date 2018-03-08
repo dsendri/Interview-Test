@@ -71,9 +71,8 @@ lineReader.on('close', function () {
             }
         }
         skip = skip + n + 3;
-        console.log("Case "+ (i+1)+" : " + count);
+        console.log("Case "+ (i+1)+": " + count);
         //console.log("skip: " + skip);
     }
 
 });
-
